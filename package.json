@@ -1,6 +1,6 @@
 {
   "name": "@potentii/unique-utils",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Uniqueness utilities",
   "author": "Guilherme Reginaldo Ruella <potentii@gmail.com>",
   "license": "MIT",

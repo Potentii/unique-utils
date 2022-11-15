@@ -13,6 +13,7 @@ export default class Generator{
     /**
      * @abstract
      * @protected
+     * @package
      * @return {T}
      */
     generateNewValue(){}

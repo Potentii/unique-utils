@@ -1,6 +1,13 @@
-import UniqueUtils from "./libs/unique-utils.mjs";
+import UuidGenerator from "./libs/generators/uuid-generator.mjs";
 
 /**
- *
+ * @module
  */
-export default new UniqueUtils();
+export const UniqueUtils = {
+
+    /**
+     * @type {UuidGenerator}
+     */
+    uuid: new UuidGenerator(),
+
+}
