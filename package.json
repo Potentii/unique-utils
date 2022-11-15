@@ -1,0 +1,39 @@
+{
+  "name": "@potentii/unique-utils",
+  "version": "1.0.0",
+  "description": "Uniqueness utilities",
+  "author": "Guilherme Reginaldo Ruella <potentii@gmail.com>",
+  "license": "MIT",
+  "main": "main.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "files": [
+    "main.mjs",
+    "libs/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "unique",
+    "id",
+    "utils",
+    "potentii"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Potentii/unique-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Potentii/unique-utils/issues"
+  },
+  "homepage": "https://github.com/Potentii/unique-utils#readme",
+  "dependencies": {
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "mocha": "9.2.0",
+    "chai": "4.3.6"
+  }
+}
